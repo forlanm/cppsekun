@@ -1,0 +1,13 @@
+#!/bin/bash
+# bash b
+
+#c++ code
+mkdir example
+cp code.md example
+cd example
+cat code.md > client.cpp
+g++ -Wall client.cpp -o mess
+./mess
+cd
+rm -R example
+
