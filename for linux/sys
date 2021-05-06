@@ -3,10 +3,9 @@
 
 #c++ code
 mkdir example
-cp code.md example
+cp code.cpp example
 cd example
-cat code.md > client.cpp
-g++ -Wall client.cpp -o mess
+g++ -Wall code.cpp -o mess
 ./mess
 cd
 rm -R example
