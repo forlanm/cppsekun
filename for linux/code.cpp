@@ -20,6 +20,8 @@ int main ()
 				if (min == 60)
 			{
 				hou += 1;
+				min = 0;
+				sec = 0;
 			}
 			}
 	}
